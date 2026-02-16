@@ -1,0 +1,21 @@
+name: mse246
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - scipy
+  - openpyxl
+  - jupyter
+  - pip
+  - pip:
+      - xgboost
+      - torch
+      - torchvision
+      - tensorflow
+      - statsmodels
